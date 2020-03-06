@@ -21,3 +21,5 @@ The case-crossover design eliminates time-varying confounding by comparing value
 # Results presentation
 1. Single day model: a single boxplot with all the significant coefficients obtained from the single day models
 2. DLNM: A graph in which the results of the DLNM are presented accumulated over the risk period and one in which results by lag (day) and variable are presented. 
+
+https://zenodo.org/badge/latestdoi/245365464
