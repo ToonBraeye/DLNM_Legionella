@@ -6,8 +6,8 @@ Effect of meteorological variables during the risk period (10-2 days prior to di
 
 # Data Input
 The code requires two datasets:
-1.meteoProvS.Rdata: standardized/transformed meteorological variables (temperature, wind speed, relative humidity, precipitation) by province by day
-2.pop_prov_year: population totals by province by year 
+1. meteoProvS.Rdata: standardized/transformed meteorological variables (temperature, wind speed, relative humidity, precipitation) by province by day
+2. pop_prov_year: population totals by province by year 
 
 The legionnaires' disease incidence data is a function of the meteorological data: negative effect of wind speed on day 4-6, positive effect of relative humidity on day 5 and precipitation on day 6
 
