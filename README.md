@@ -13,6 +13,8 @@ The legionnaires' disease incidence data is a function of the meteorological dat
 
 # Analysis
 The code includes two case-crossover designs:
+The case-crossover design eliminates time-varying confounding by comparing values to values measured on corresponding days (same day of the year in other study years).
+
 1. Single day model: A model is fitted for each day in the risk period (e.g. association between disease incidence and meteorological variables six days prior). The meteorological variables are modelled as factors (quantiles) to allow for non-linear associations.
 2. DLNM: A single model fits trends from the complete risk period to the observed Legionnaires' disease incidence. The crossbases are piecewise-linear for the lag-dimension and linear for the meteorological variables (with the exception of temperature, which is included as a cubic spline).
 
